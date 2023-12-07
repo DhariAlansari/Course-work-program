@@ -9,7 +9,7 @@ while True:
 
     # Validate the user's choice
     if menuchoice > 3 or menuchoice < 1:
-        print("\nInvalid choice, please choose a number between 1 and 3.")
+        print("\nInvalid choice, please choose a number from 1 to 3.")
         continue  # Restart the loop if the choice is invalid
 
     if menuchoice == 1:
@@ -24,7 +24,7 @@ while True:
 
         # Validate the user's city choice
         if citychoice > 4 or citychoice < 1:
-            print("Invalid choice, please choose a number between 1 and 4.")
+            print("Invalid choice, please choose a from 1 to 4.")
             continue  # Restart the loop if the choice is invalid
 
         # Provide information about the selected flight
